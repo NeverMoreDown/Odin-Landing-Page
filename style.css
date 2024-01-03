@@ -99,3 +99,39 @@ ul {
     height: 40px;
     font-size: 16px;
 }
+
+
+.main-2-title {
+    margin-top: 32px;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+  }
+  
+  .main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    width: 100vw;
+  }
+  
+  .image {
+    height: 100px;
+    width: 100px;
+    border:#3882f6 4px solid;
+    border-radius: 8px;
+    
+  }
+  .items {
+    max-width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 600px;
+    flex: 1 1 auto;
+    text-align: center;
+  }
