@@ -115,6 +115,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 450px;
     gap: 52px;
     width: 100vw;
   }
@@ -135,3 +136,29 @@ ul {
     flex: 1 1 auto;
     text-align: center;
   }
+
+  .main-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    background-color: #e5e7eb;
+  }
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: light;
+    font-style: italic;
+    font-size: 30px;
+    width: 650px;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
