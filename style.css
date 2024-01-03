@@ -1,0 +1,38 @@
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.header {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-links {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
